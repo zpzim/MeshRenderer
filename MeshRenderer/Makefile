@@ -1,8 +1,3 @@
-## CS130 Fall 2013: Computer Graphics
-## Lab 1 Makefile
-##
-## This file does not need to be modified
-#########################################
 
 LIBS = -lglut -lGLU -lGL -lXmu -lXext -lXi -lX11 -lm
 CC = g++ -ggdb
