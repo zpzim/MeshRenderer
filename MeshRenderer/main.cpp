@@ -1,10 +1,5 @@
-// Name: Zachary Zimmerman
-// Quarter, Year: Fall 2013
-// Lab:
+// Mesh Renderer: main.cpp
 //
-// This file is to be modified by the student.
-// main.cpp
-////////////////////////////////////////////////////////////
 #include <GL/glut.h>
 #include <iostream>
 #include <cmath>
@@ -199,7 +194,7 @@ void GLInit(int* argc, char** argv)
 	glutInitWindowSize(WINDOW_WIDTH, WINDOW_HEIGHT);
 
 
-	glutCreateWindow("CS 130 - Zachary Zimmerman");
+	glutCreateWindow("MeshRenderer");
 	glMatrixMode(GL_PROJECTION_MATRIX);
 	glOrtho(0, WINDOW_WIDTH, 0, WINDOW_HEIGHT, -1, 1);
 	glutDisplayFunc(GL_Render);
